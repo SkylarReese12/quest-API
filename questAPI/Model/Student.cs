@@ -8,14 +8,11 @@ namespace questAPI.Model
         public int CompID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public Boolean Submitted { get; set; }
 
-        public Student(long StudentID, int SchoolID, int CompID, string FirstName, string LastName)
+        public Student()
         {
-            this.StudentID = StudentID;
-            this.SchoolID = SchoolID;
-            this.CompID = CompID;
-            this.FirstName = FirstName;
-            this.LastName = LastName;
+           
         }
     }
 }
