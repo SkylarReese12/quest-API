@@ -6,6 +6,7 @@ namespace questAPI.Model
         public long StudentID { get; set; }
         public string SchoolName { get; set; }
         public int SchoolID { get; set; }
+        public string CompName { get; set; }
         public int CompID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

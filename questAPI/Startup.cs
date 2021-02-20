@@ -39,7 +39,7 @@ namespace questAPI
                         .AllowAnyHeader();
                 }));
 
-
+            
             // dependency injection
 
             // we create one database properties instance with values from the
@@ -69,6 +69,7 @@ namespace questAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseXContentTypeOptions();
 
             app.UseHttpsRedirection();
 
