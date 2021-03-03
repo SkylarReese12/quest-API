@@ -70,6 +70,7 @@ namespace questAPI
                 app.UseDeveloperExceptionPage();
             }
             app.UseXContentTypeOptions();
+            app.UseCors("AllowAll");
 
             app.UseHttpsRedirection();
 
